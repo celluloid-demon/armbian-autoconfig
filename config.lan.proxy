@@ -1,0 +1,39 @@
+
+# /root/.not_logged_in_yet
+# PRESET_CONFIGURATION="http://path/to/config/file"
+
+# Network Settings
+PRESET_NET_CHANGE_DEFAULTS="1"
+
+## Ethernet
+PRESET_NET_ETHERNET_ENABLED="1"     #   Ignored due to WiFi
+
+## WiFi
+PRESET_NET_WIFI_ENABLED="0"
+# PRESET_NET_WIFI_SSID="MySSID"
+# PRESET_NET_WIFI_KEY="MyWiFiKEY"
+# PRESET_NET_WIFI_COUNTRYCODE="GB"
+# PRESET_CONNECT_WIRELESS="n"
+
+## Static IP
+# PRESET_NET_USE_STATIC="1"
+# PRESET_NET_STATIC_IP="192.168.0.100"
+# PRESET_NET_STATIC_MASK="255.255.255.0"
+# PRESET_NET_STATIC_GATEWAY="192.168.0.1"
+# PRESET_NET_STATIC_DNS="8.8.8.8 8.8.4.4"
+
+# System
+SET_LANG_BASED_ON_LOCATION="n"
+PRESET_LOCALE="en_US.UTF-8"
+PRESET_TIMEZONE="America/Los_Angeles"
+
+# Root
+# PRESET_ROOT_PASSWORD="RootPassword" # Preset root password / Stored in plaintext, SSH keys are safer!
+PRESET_ROOT_KEY="https://raw.githubusercontent.com/celluloid-demon/key/refs/heads/main/id_rsa.common.pub" # Fetches public key from specified URL for root user
+
+# User
+# PRESET_USER_NAME="armbian"
+# PRESET_USER_PASSWORD="UserPassword"
+# PRESET_USER_KEY=""
+# PRESET_DEFAULT_REALNAME="Armbian user"
+# PRESET_USER_SHELL="bash"
