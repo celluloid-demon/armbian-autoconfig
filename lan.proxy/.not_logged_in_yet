@@ -1,1 +1,2 @@
-PRESET_CONFIGURATION="http://path/to/config/file"
+
+PRESET_CONFIGURATION="https://raw.githubusercontent.com/celluloid-demon/armbian-autoconfig/refs/heads/main/lan.proxy/config"
